@@ -1,68 +1,99 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "aspen",
+  "name": "ARC Stack",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6B41B8",
+    "light": "#C9A4E8",
+    "dark": "#2E1B7A" 
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+            "tab": "Messenger Guides",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": ["en/getting-started/introduction"]
+              },
+              {
+                "group": "Core Concepts",
+                "pages": []
+              },
+              {
+                "group": "Guides",
+                "pages": []
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
+        "language": "fr",
+        "tabs": [
           {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+            "tab": "Messenger Guides",
+            "groups": [
+              {
+                "group": "Démarrage",
+                "pages": ["fr/getting-started/introduction"]
+              },
+              {
+                "group": "Concepts Clés",
+                "pages": []
+              },
+              {
+                "group": "Guides",
+                "pages": []
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "tabs": [
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "Messenger Guides",
+            "groups": [
+              {
+                "group": "Comenzar",
+                "pages": ["es/getting-started/introduction"]
+              },
+              {
+                "group": "Conceptos Clave",
+                "pages": []
+              },
+              {
+                "group": "Guías",
+                "pages": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
+          {
+            "tab": "Messenger Guides",
+            "groups": [
+              {
+                "group": "入门指南",
+                "pages": ["zh/getting-started/introduction"]
+              },
+              {
+                "group": "核心概念",
+                "pages": []
+              },
+              {
+                "group": "使用指南",
+                "pages": []
+              }
             ]
           }
         ]
@@ -71,20 +102,20 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Pricing",
+          "href": "https://arcstack.ca/pricing",
+          "icon": "comment-dollar"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Testimonials",
+          "href": "https://arcstack.ca/testimonials",
+          "icon": "face-laugh-beam"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/light-2.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
