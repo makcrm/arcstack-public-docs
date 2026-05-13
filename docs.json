@@ -1,13 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "ARC Stack",
+  "name": "ArcStack Technologies",
   "colors": {
     "primary": "#6B41B8",
     "light": "#C9A4E8",
     "dark": "#2E1B7A" 
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "languages": [
       {
@@ -122,7 +121,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@arcstack.ca"
       }
     ],
     "primary": {
@@ -145,9 +144,24 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/arcstackapp",
+      "instagram": "https://instagram.com/arcstacktech"
     }
+  },
+  "description": "Help articles to guide your through the ArcStack Platform",
+  "fonts": {
+    "family": "Inter"
+  },
+  "background": {
+    "color": {
+      "dark": "#232323"
+    }
+  },
+  "favicon": {
+    "light": "/images/favicon-sunset.ico",
+    "dark": "/images/favicon-sunset.ico"
+  },
+  "appearance": {
+    "default": "system"
   }
 }
