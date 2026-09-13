@@ -37,6 +37,14 @@ Thumbs.db
 # Misc
 .vercel
 
-# Claude
-.claude/
+# Claude instructions
 CLAUDE.md
+
+# git worktrees
+.worktrees/
+
+# Local agent tooling
+.claude/
+.agents/
+.codex/
+.herdr/
